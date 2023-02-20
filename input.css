@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* !Fonts */
 @font-face {
   font-family: "Object Sans Regular";
   src: url(./fonts/ObjectSans-Regular.ttf), format("ttf"),
@@ -42,12 +43,14 @@
     url("./fonts/Lato-Semibold.woff") format("woff"),
     url("./fonts/Lato-Semibold.woff2") format("woff2"),
 }
+
 /* !Font-Family for body */
 @layer base {
   body {
     font-family: "Object Sans Regular, sans-serif";
   }
 }
+
 /* !Max-width Container */
 @layer components {
   .container {

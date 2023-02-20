@@ -15,19 +15,18 @@ module.exports = {
     },
     // !Custom Fonts :
     extend: {
+      colors: {
+        accent: '#34334A',
+        white: '#ffffff',
+        black: '#14141B;',
+        pink: '#FBF7FF',
+      },
       fontFamily: {
-        'Object-Reg': ['Object Sans Regular', 'sans-serif'],
-        'Cav-Reg': ['Caveat Regular', 'sans-serif'],
+        'Object': ['Object Sans Regular', 'sans-serif'],
+        'Caveat': ['Caveat Regular', 'sans-serif'],
         'Manrope-Sem': ['Manrope SemiBold', 'sans-serif'],
         'Manrope-Reg': ['Manrope Regular', 'sans-serif'],
         'Lato-Sem': ['Lato SemiBold', 'sans-serif'],
-      },
-
-      colors: {
-        'accent': '#34334A',
-        'white': '#ffffff',
-        'black': '#14141B;',
-        'pink': '#FBF7FF',
       }
     },
   },
