@@ -20,14 +20,21 @@ module.exports = {
         white: '#ffffff',
         black: '#14141B;',
         pink: '#FBF7FF',
+        olivel: '#D4D3CD',
+        white2: '#F7F7F7;',
+        border: '#E1E1E3',
+        gray: '#8D8C98',
       },
       fontFamily: {
         'Object': ['Object Sans Regular', 'sans-serif'],
         'Caveat': ['Caveat Regular', 'sans-serif'],
         'Manrope-Sem': ['Manrope SemiBold', 'sans-serif'],
         'Manrope-Reg': ['Manrope Regular', 'sans-serif'],
-        'Lato-Sem': ['Lato SemiBold', 'sans-serif'],
-      }
+        'Lato': ['Lato SemiBold', 'sans-serif'],
+      },  
+      backgroundImage: {
+        'star': "url('../../images/star.svg')",
+      },
     },
   },
   plugins: [],

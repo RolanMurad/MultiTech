@@ -19,5 +19,8 @@
   "homepage": "https://github.com/RolanMurad/MultiTech#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "tailwindcss-nth-child": "^0.0.6"
   }
 }

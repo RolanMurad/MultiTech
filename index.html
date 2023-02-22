@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,7 @@
 <body>
   <header>
     <div class="container">
-      <nav class="pt-[30px] flex justify-between items-center">
+      <nav class="pt-[30px] flex justify-between items-center px-10">
         <ul class="text-accent text-lg leading-7 flex gap-9">
           <li><a class="hover:text-blue-800 hover:border-b border-blue-800 transition-all" href="#">cases</a></li>
           <li><a class="hover:text-blue-800 hover:border-b border-blue-800 transition-all" href="#">behance</a></li>
@@ -29,7 +28,7 @@
   </header>
 
   <main>
-    <section class="pt-32 pb-52">
+    <section class="pt-32 pb-52 bg-no-repeat bg-right-top z-10" style="background-image: url(./images/decor-bg.png);">
       <div class="container">
         <h1 class="sr-only">MULTITECH Creating digital products</h1>
         <p class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 pl-16 text-accent relative">
@@ -53,10 +52,88 @@
         </p>
       </div>
       <img class="absolute left-0" src="./images/decor-4.svg" alt="decor-4">
-      <img class="absolute right-[-50px] top-[500px]" src="./images/decor-man.png" alt="decor-man">
+      <img class="absolute right-0 top-[500px]" src="./images/decor-man.png" alt="decor-man">
+    </section>
+
+    <section class="pb-40">
+      <div class="container">
+        <h2 class="font-Object font-normal text-5xl mb-10 lowercase leading-[74px] text-accent">recent projects</h2>
+        <div id="projects">
+          <a id="projects__item" href="#">
+            <div class="bg-olivel rounded-[20px] mb-8">
+              <div class="flex">
+                <img class="bg-no-repeat bg-left-center max-w-[975px] rounded-tl-[20px] rounded-bl-[20px]"
+                  src="./images/women.png" alt="women">
+                <div class="flex flex-col gap-7 pt-5 items-center">
+                  <img src="./images/emblem.png" alt="emblem">
+                  <div class="bg-white px-12 pb-8">
+                    <img src="./images/scrab.png" alt="scrab">
+                    <p class="font-normal font-Manrope-Reg text-center mb-3">The act</p>
+                    <div class="font-Manrope-Reg text-xs opacity-50 text-center mb-6">Salt body scrub with black caraway
+                      oil
+                    </div>
+                    <div class="font-Lato font-semibold leading-6 text-lg text-center">15 $</div>
+                  </div>
+                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">LibLab beauty store</p>
+                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">2023</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a id="projects__item" href="#"><img class="mb-5" src="./images/delivery.jpg" alt="delivery"></a>
+          <a id="projects__item" href="#"><img class="mb-5" src="./images/insurance.jpg" alt="insurance"></a>
+
+
+          <a id="projects__item"  href="#">
+            <div class="bg-olivel rounded-[20px] mb-8">
+              <div class="flex">
+                <img class="bg-no-repeat bg-left-center max-w-[975px] rounded-tl-[20px] rounded-bl-[20px]"
+                  src="./images/women.png" alt="women">
+                <div class="flex flex-col gap-7 pt-5 items-center">
+                  <img src="./images/emblem.png" alt="emblem">
+                  <div class="bg-white px-12 pb-8">
+                    <img src="./images/scrab.png" alt="scrab">
+                    <p class="font-normal font-Manrope-Reg text-center mb-3">The act</p>
+                    <div class="font-Manrope-Reg text-xs opacity-50 text-center mb-6">Salt body scrub with black caraway
+                      oil
+                    </div>
+                    <div class="font-Lato font-semibold leading-6 text-lg text-center">15 $</div>
+                  </div>
+                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">LibLab beauty store</p>
+                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">2023</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a id="projects__item"  href="#"><img class="mb-5" src="./images/delivery.jpg" alt="delivery"></a>
+          <a id="projects__item"  href="#"><img class="mb-5" src="./images/insurance.jpg" alt="insurance"></a>
+        </div>
+
+
+        <button id="show-more"
+          class="font-Object px-5 py-4 border border-border rounded-[50px] text-accent lowercase w-56 m-auto block font-normal text-2xl hover:text-blue-800 hover:border-blue-800 transition-all ease-in-out">more
+          cases</button>
+
+      </div>
+    </section>
+
+    <section class="pb-[150px]">
+      <div class="container">
+        <div class="relative">
+          <img class="absolute left-0 top-[-75%]" src="./images/decor-line.svg" alt="decor-line-img">
+          <img class="absolute right-0 top-16" src="./images/decor-line-2.svg" alt="decor-line-img">
+          <div class="flex justify-between">
+            <p class="font-normal text-xl text-gray leading-6 lowercase">our approach</p>
+            <p class="pr-[150px] font-normal text-6xl text-accent leading-[83px] lowercase">we are young and ambitious, not afraid
+              of</p>
+          </div>
+          <p class="font-normal text-6xl leading-[74px] text-accent lowercase text-left">Out-of-the-box solutions, we inspire and inspire, we create digital products that people love, and we help brands and
+          companies stand out and get <span class="font-Caveat text-6xl leading-0 pr-20 relative after:absolute after:bg-star after:w-[66px] after:h-[66px] after:right-0">to the next level</span></p>
+        </div>
+      </div>
     </section>
   </main>
-
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
