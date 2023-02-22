@@ -34,6 +34,7 @@ module.exports = {
       },  
       backgroundImage: {
         'star': "url('../../images/star.svg')",
+        'smile': "url('../../images/smile-decor.svg')",
       },
     },
   },
