@@ -24,6 +24,8 @@ module.exports = {
         white2: '#F7F7F7;',
         border: '#E1E1E3',
         gray: '#8D8C98',
+        blue: '#3015D9',
+        blueAlice: '#F1F0FF',
       },
       fontFamily: {
         'Object': ['Object Sans Regular', 'sans-serif'],
@@ -35,6 +37,7 @@ module.exports = {
       backgroundImage: {
         'star': "url('../../images/star.svg')",
         'smile': "url('../../images/smile-decor.svg')",
+        'yellowdecor': "url('../../images/yellow-decor.svg')",
       },
     },
   },
