@@ -12,98 +12,80 @@
 <body>
   <header>
     <div class="container">
-      <nav class="pt-[30px] flex justify-between items-center px-10">
-        <ul class="text-accent text-lg leading-7 flex gap-9">
+      <nav class="pt-[30px] flex justify-between items-center px-10 md:px-0 relative">
+        <ul
+          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-48 md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 md:pb-6 pt-5 md:translate-y-[-300%]"
+          data-menu>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">cases</a></li>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">behance</a></li>
         </ul>
-
         <a href="#"><img src="./images/logo.svg" alt="logo"></a>
-
-        <ul class="text-accent text-lg leading-7 flex gap-9">
+        <ul
+          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-[365px] md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 px-3 pb-5 md:translate-y-[-300%]"
+          data-menu>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">blog</a></li>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">about us</a></li>
         </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0" y="0" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512" xml:space="preserve" class="burger">
+          <g>
+            <path
+              d="M128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6S500.538 128 486.4 128H153.6c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128H25.6C11.462 230.4 0 241.863 0 256c0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6H256c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z"
+              fill="#215ee6" data-original="#000000"></path>
+          </g>
+        </svg>
       </nav>
     </div>
   </header>
   <main>
-    <section class="pt-32 pb-[270px] bg-no-repeat bg-right-top z-10"
+    <section class="pt-32 pb-[270px] bg-no-repeat bg-right-top z-10 xl:pt-24 xl:pb-44 lg:pb-24 sm:pt-10"
       style="background-image: url(./images/decor-bg.png);">
       <div class="container">
-        <h1 class="sr-only">MULTITECH Creating digital products</h1>
-        <p class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 pl-16 text-accent relative">
-          <span class="font-Caveat text-[154px]">create</span>
-          <img class="absolute bottom-0 left-5 w-[460px]" src="./images/decor-1.svg" alt="decor-1">
-          digital products
-        </p>
-
-        <p class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 text-accent relative">
-          <span class="font-Caveat text-[154px]">ruining</span> typical solutions
-          <img class="absolute bottom-0 w-[450px]" src="./images/decor-2.svg" alt="decor-2">
-        </p>
-
-        <p
-          class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 text-accent relative max-w-4xl m-auto">
-          <span class="font-Caveat text-[154px]">Building </span> results
-          <img class="absolute bottom-0 w-[520px]" src="./images/decor-3.svg" alt="decor-3">
-        </p>
-
-        <p class="lowercase font-Object font-normal text-4xl mx-auto max-w-2xl">with or instead of your in-house team
-        </p>
+        <div class="relative">
+          <h1 class="sr-only">MULTITECH Creating digital products</h1>
+          <p
+            class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 pl-16 text-accent relative whitespace-nowrap  xl:text-[80px] text-center xl:pl-0 max-w-fit mx-auto lg:leading-[100px]  md:text-5xl md:whitespace-normal">
+            <span class="font-Caveat text-[154px] xl:text-7xl">create</span>
+            <img class="absolute bottom-0 w-[460px] animate-pulse md:bottom-[-20px]" src="./images/decor-1.svg"
+              alt="decor-1">
+            digital products
+          </p>
+          <p
+            class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 text-accent relative whitespace-nowrap  xl:text-[80px] xl:text-center max-w-fit mx-auto lg:leading-[100px] md:text-5xl md:whitespace-normal">
+            <span class="font-Caveat text-[154px] xl:text-7xl">ruining</span> typical solutions
+            <img class="absolute bottom-0 w-[450px] animate-pulse md:bottom-[-20px]" src="./images/decor-2.svg"
+              alt="decor-2">
+          </p>
+          <p
+            class="lowercase font-Object font-normal text-[100px] leading-[123px] mb-5 text-accent relative m-auto whitespace-nowrap xl:text-[80px] text-center max-w-fit mx-auto lg:leading-[100px] md:text-5xl md:whitespace-normal">
+            <span class="font-Caveat text-[154px] xl:text-7xl">Building </span> results
+            <img class="absolute bottom-0 w-[520px] animate-pulse md:bottom-[-20px]" src="./images/decor-3.svg"
+              alt="decor-3">
+          </p>
+          <p
+            class="lowercase font-Object font-normal text-3xl mx-auto max-w-2xl whitespace-nowrap md:text-center md:whitespace-normal">
+            with or instead of your in-house team
+          </p>
+          <img class="absolute left-[0%] hover:animate-spin xl:w-[15%] md:bottom-[-30%] sm:bottom-[-20%] sm:hidden"
+            src="./images/decor-4.svg" alt="decor-4">
+          <img class="absolute right-[-150px] top-[350px] xl:w-[25%] xl:right-0 md:top-[320px] sm:hidden"
+            src="./images/decor-man.png" alt="decor-man">
+        </div>
       </div>
-      <img class="absolute left-0" src="./images/decor-4.svg" alt="decor-4">
-      <img class="absolute right-0 top-[490px]" src="./images/decor-man.png" alt="decor-man">
     </section>
 
     <section class="pb-40">
       <div class="container">
         <h2 class="font-Object font-normal text-5xl mb-10 lowercase leading-[74px] text-accent">recent projects</h2>
         <div id="projects">
-          <a id="projects__item" href="#">
-            <div class="bg-olivel rounded-[20px] mb-8">
-              <div class="flex">
-                <img class="bg-no-repeat bg-left-center max-w-[975px] rounded-tl-[20px] rounded-bl-[20px]"
-                  src="./images/women.png" alt="women">
-                <div class="flex flex-col gap-7 pt-5 items-center">
-                  <img src="./images/emblem.png" alt="emblem">
-                  <div class="bg-white px-12 pb-8">
-                    <img src="./images/scrab.png" alt="scrab">
-                    <p class="font-normal font-Manrope-Reg text-center mb-3">The act</p>
-                    <div class="font-Manrope-Reg text-xs opacity-50 text-center mb-6">Salt body scrub with black caraway
-                      oil
-                    </div>
-                    <div class="font-Lato font-semibold leading-6 text-lg text-center">15 $</div>
-                  </div>
-                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">LibLab beauty store</p>
-                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">2023</p>
-                </div>
-              </div>
-            </div>
-          </a>
+          <a id="projects__item" href="#"><img class="max-w-full mb-5" src="./images/women.png" alt="women"></a>
           <a id="projects__item" href="#"><img class="mb-5" src="./images/delivery.jpg" alt="delivery"></a>
           <a id="projects__item" href="#"><img class="mb-5" src="./images/insurance.jpg" alt="insurance"></a>
           <a id="projects__item" href="#">
-            <div class="bg-olivel rounded-[20px] mb-8">
-              <div class="flex">
-                <img class="bg-no-repeat bg-left-center max-w-[975px] rounded-tl-[20px] rounded-bl-[20px]"
-                  src="./images/women.png" alt="women">
-                <div class="flex flex-col gap-7 pt-5 items-center">
-                  <img src="./images/emblem.png" alt="emblem">
-                  <div class="bg-white px-12 pb-8">
-                    <img src="./images/scrab.png" alt="scrab">
-                    <p class="font-normal font-Manrope-Reg text-center mb-3">The act</p>
-                    <div class="font-Manrope-Reg text-xs opacity-50 text-center mb-6">Salt body scrub with black caraway
-                      oil
-                    </div>
-                    <div class="font-Lato font-semibold leading-6 text-lg text-center">15 $</div>
-                  </div>
-                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">LibLab beauty store</p>
-                  <p class="font-Manrope-Sem text-white opacity-80 font-semibold text-2xl">2023</p>
-                </div>
-              </div>
-            </div>
+            <img class="max-w-full mb-5" src="./images/women.png" alt="women">
           </a>
+
           <a id="projects__item" href="#"><img class="mb-5" src="./images/delivery.jpg" alt="delivery"></a>
           <a id="projects__item" href="#"><img class="mb-5" src="./images/insurance.jpg" alt="insurance"></a>
         </div>
@@ -114,11 +96,11 @@
       </div>
     </section>
 
-    <section class="pb-[150px]">
+    <!--  <section class="pb-[150px]">
       <div class="container">
         <div class="relative">
-          <img class="absolute left-0 top-[-75%]" src="./images/decor-line.svg" alt="decor-line-img">
-          <img class="absolute right-0 top-16" src="./images/decor-line-2.svg" alt="decor-line-img">
+          <img class="absolute left-0 top-[-75%] animate-pulse" src="./images/decor-line.svg" alt="decor-line-img">
+          <img class="absolute right-0 top-16 animate-pulse" src="./images/decor-line-2.svg" alt="decor-line-img">
           <div class="flex justify-between">
             <h2 class="font-normal text-xl text-gray leading-6 lowercase">our approach</h2>
             <p class="pr-[150px] font-normal text-6xl text-accent leading-[83px] lowercase">we are young and ambitious,
@@ -190,22 +172,26 @@
     <section class="pt-[150px]">
       <div class="container">
         <div class="grid grid-cols-2 grid-rows-[1fr_666px] gap-5">
-          <a href="#"><img src="./images/product-1.jpg" alt="product"></a>
-          <a href="#"><img src="./images/product-2.jpg" alt="product"></a>
+          <a href="#"><img class="hover:scale-105 transition-all" src="./images/product-1.jpg" alt="product"></a>
+          <a href="#"><img class="hover:scale-105 transition-all" src="./images/product-2.jpg" alt="product"></a>
 
           <div class="bg-blue py-12 px-24 rounded-[20px] relative col-span-2">
-            <img class="absolute left-0 bottom-[-100px]" src="./images/decor-line-3.svg" alt="decor-line">
-            <img class="absolute right-0 top-12" src="./images/decor-line-4.svg" alt="decor-line">
-            <img class="absolute right-40 top-3/4" src="./images/spin.svg" alt="spin-decor">
+            <img class="absolute left-0 bottom-[-100px] animate-pulse" src="./images/decor-line-3.svg" alt="decor-line">
+            <img class="absolute right-0 top-12 animate-pulse" src="./images/decor-line-4.svg" alt="decor-line">
+            <img class="absolute right-40 top-3/4 animate-spin" src="./images/spin.svg" alt="spin-decor">
             <div
               class="rounded-[20px] px-9 py-7 bg-blueAlice text-blue text-center font-normal text-[40px] max-w-2xl mx-auto mb-8">
               we provide outstaff support</div>
             <div class="text-center w-3/4 mx-auto">
-              <p class="font normal text-blueAlice text-5xl leading-[74px] max-w-3xl mx-auto">We are the ones who strengthen your in-house team</p>
+              <p class="font normal text-blueAlice text-5xl leading-[74px] max-w-3xl mx-auto">We are the ones who
+                strengthen your in-house team</p>
               <p class="font-Caveat text-blueAlice text-7xl mb-[15px]">and declares it openly!</p>
-              <p class="text-blueAlice text-5xl leading-[74px]">Out staff is a cool opportunity to exchange the skills of different specialists and maximize
+              <p class="text-blueAlice text-5xl leading-[74px]">Out staff is a cool opportunity to exchange the skills
+                of different specialists and maximize
               </p>
-              <p class="text-blueAlice text-5xl"><span class="pr-16 relative before:absolute before:bg-yellowdecor before:right-[-20px] before:w-[74px] before:h-[77px] before:top-[-10px]">fast</span> and high-quality pumping</p>
+              <p class="text-blueAlice text-5xl"><span
+                  class="pr-16 relative before:absolute before:bg-yellowdecor before:right-[-20px] before:w-[74px] before:h-[77px] before:top-[-10px]">fast</span>
+                and high-quality pumping</p>
             </div>
           </div>
         </div>
@@ -229,6 +215,44 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="relative">
+          <img class="absolute left-0 top-8 animate-pulse" src="./images/decor-line-5.svg" alt="decor-line">
+          <img class="absolute right-0 top-[-100px] animate-pulse" src="./images/decor-line-6.svg" alt="decor-line">
+          <img class="absolute bottom-[-120px] left-1/2 translate-x-[-50%] animate-pulse z-10" src="./images/decor-arrow.svg"
+            alt="decor-arrow">
+          <img class="absolute left-3/4 bottom-0 translate-x-[-50%] animate-pulse" src="./images/decor-moon.svg" alt="decor-moon">
+
+          <h2 class="text-gray font-normal text-xl">a little more about us:)</h2>
+          <div class="mx-auto max-w-[800px] text-center mb-14">
+            <p class="text-accent font-normal text-6xl">we are balancing between</p>
+            <p class="text-accent font-normal text-8xl">creativity and logic</p>
+            <p class="text-accent font-normal text-6xl">to create a reliable but wonderful experience</p>
+          </div>
+        </div>
+
+        <div class="bg-black rounded-[20px] relative">
+          <img class="absolute left-20 top-14" src="./images/eye.svg" alt="eye">
+          <img class="absolute right-0 top-[-10%] hover:animate-bounce" src="./images/heart.png" alt="heart">
+          <div class="flex gap-16 pt-[100px] pl-[100px] pr-12">
+            <img class="self-end" src="./images/multitech-dec.png" alt="multitech-dec">
+            <div class="pb-[100px]">
+              <h3 class="text-white font-normal text-4xl mb-5">always remain flexible</h3>
+              <p class="text-white text-2xl mb-12">For example, we choose a stack that the client is comfortable with. And we also offer to work
+                in stages or by TM, so
+                that you can change the brief and control the timing.</p>
+              <h3 class="text-white font-normal text-4xl mb-5">we know how to super-manage</h3>
+              <p class="text-white text-2xl">We answer questions quickly and give you access to the project. Plus we're always ready to
+                call to discuss details or
+                explain our decisions. If you don't have time for a call, we'll write down Loom.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
     <section class="py-[150px]">
       <div class="container">
         <div class="max-w-4xl mx-auto relative mb-24">
@@ -273,9 +297,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
-  <footer class="bg-black">
+  <!-- <footer class="bg-black">
     <div class="container">
       <div class="pt-12">
         <h2 class="font-normal text-gray text-xl leading-6 mb-8">office and contacts</h2>
@@ -307,7 +331,7 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </footer>  -->
   <script src="./js/main.js"></script>
 </body>
 

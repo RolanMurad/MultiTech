@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     // !Desktop First :
     screens: {
+      'xl': { 'max': '1280px' },
       'lg': { 'max': '992px' },
       'md': { 'max': '768px' },
       'sm': { 'max': '480px' },
@@ -26,6 +27,7 @@ module.exports = {
         gray: '#8D8C98',
         blue: '#3015D9',
         blueAlice: '#F1F0FF',
+        blue2: '#215ee6',
       },
       fontFamily: {
         'Object': ['Object Sans Regular', 'sans-serif'],
@@ -33,7 +35,7 @@ module.exports = {
         'Manrope-Sem': ['Manrope SemiBold', 'sans-serif'],
         'Manrope-Reg': ['Manrope Regular', 'sans-serif'],
         'Lato': ['Lato SemiBold', 'sans-serif'],
-      },  
+      },
       backgroundImage: {
         'star': "url('../../images/star.svg')",
         'smile': "url('../../images/smile-decor.svg')",
@@ -41,5 +43,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+plugins: [],
 }
