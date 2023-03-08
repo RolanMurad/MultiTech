@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     // !Desktop First :
     screens: {
+      'xxl':{ 'max': '1450px' },
       'xl': { 'max': '1280px' },
       'lg': { 'max': '992px' },
       'md': { 'max': '768px' },
@@ -43,5 +44,5 @@ module.exports = {
       },
     },
   },
-plugins: [],
+  plugins: [],
 }

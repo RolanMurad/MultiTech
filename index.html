@@ -14,21 +14,21 @@
     <div class="container">
       <nav class="pt-[30px] flex justify-between items-center px-10 md:px-0 relative">
         <ul
-          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-48 md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 md:pb-6 pt-5 md:translate-y-[-300%]"
+          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-48 md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 md:pb-6 md:pt-5 md:translate-y-[-300%]"
           data-menu>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">cases</a></li>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">behance</a></li>
         </ul>
         <a href="#"><img src="./images/logo.svg" alt="logo"></a>
         <ul
-          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-[365px] md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 px-3 pb-5 md:translate-y-[-300%]"
+          class="text-accent text-lg leading-7 flex gap-9 flex-shrink-0 md:flex-col md:absolute md:mt-[365px] md:bg-blue2 md:rounded-sm md:text-white md:text-3xl md:w-full md:text-center z-10 md:gap-1 md:px-3 md:pb-5 md:translate-y-[-300%]"
           data-menu>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">blog</a></li>
           <li><a class="hover:text-blue hover:border-b border-blue transition-all" href="#">about us</a></li>
         </ul>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-          xmlns:svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0" y="0" viewBox="0 0 512 512"
-          style="enable-background:new 0 0 512 512" xml:space="preserve" class="burger">
+        <svg data-burger class="hidden md:block" xmlns="http://www.w3.org/2000/svg" version="1.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0"
+          y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve">
           <g>
             <path
               d="M128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6S500.538 128 486.4 128H153.6c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128H25.6C11.462 230.4 0 241.863 0 256c0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6H256c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z"
@@ -39,7 +39,7 @@
     </div>
   </header>
   <main>
-    <section class="pt-32 pb-[270px] bg-no-repeat bg-right-top z-10 xl:pt-24 xl:pb-44 lg:pb-24 sm:pt-10"
+    <section class="pt-32 pb-[270px] bg-no-repeat bg-right-top z-10 xl:pt-24 xl:pb-44 lg:pb-24 md:pb-36 sm:py-10"
       style="background-image: url(./images/decor-bg.png);">
       <div class="container">
         <div class="relative">
@@ -69,15 +69,16 @@
           </p>
           <img class="absolute left-[0%] hover:animate-spin xl:w-[15%] md:bottom-[-30%] sm:bottom-[-20%] sm:hidden"
             src="./images/decor-4.svg" alt="decor-4">
-          <img class="absolute right-[-150px] top-[350px] xl:w-[25%] xl:right-0 md:top-[320px] sm:hidden"
+          <img class="absolute right-0 top-[350px] xl:w-[25%] xl:right-0 md:top-[300px] sm:hidden max-w-[380px]"
             src="./images/decor-man.png" alt="decor-man">
         </div>
       </div>
     </section>
 
-    <section class="pb-40">
+    <section class="pb-40 sm:pb-12">
       <div class="container">
-        <h2 class="font-Object font-normal text-5xl mb-10 lowercase leading-[74px] text-accent">recent projects</h2>
+        <h2 class="font-Object font-normal text-5xl mb-10 lowercase leading-[74px] text-accent md:text-3xl">recent
+          projects</h2>
         <div id="projects">
           <a id="projects__item" href="#"><img class="max-w-full mb-5" src="./images/women.png" alt="women"></a>
           <a id="projects__item" href="#"><img class="mb-5" src="./images/delivery.jpg" alt="delivery"></a>
@@ -96,21 +97,24 @@
       </div>
     </section>
 
-    <!--  <section class="pb-[150px]">
+    <section class="pb-[150px] sm:pb-12">
       <div class="container">
         <div class="relative">
           <img class="absolute left-0 top-[-75%] animate-pulse" src="./images/decor-line.svg" alt="decor-line-img">
           <img class="absolute right-0 top-16 animate-pulse" src="./images/decor-line-2.svg" alt="decor-line-img">
-          <div class="flex justify-between">
+          <div class="flex justify-between xl:flex-col xl:items-center">
             <h2 class="font-normal text-xl text-gray leading-6 lowercase">our approach</h2>
-            <p class="pr-[150px] font-normal text-6xl text-accent leading-[83px] lowercase">we are young and ambitious,
+            <p
+              class="pr-[150px] font-normal text-6xl text-accent leading-[83px] lowercase xl:pr-0 xl:text-center md:text-4xl">
+              we are young and ambitious,
               not afraid
               of</p>
           </div>
-          <p class="font-normal text-6xl leading-[74px] text-accent lowercase text-left">Out-of-the-box solutions, we
+          <p class="font-normal text-6xl leading-[74px] text-accent lowercase text-left xl:text-center md:text-4xl">
+            Out-of-the-box solutions, we
             inspire and inspire, we create digital products that people love, and we help brands and
             companies stand out and get <span
-              class="font-Caveat text-6xl leading-0 pr-20 relative after:absolute after:bg-star after:w-[66px] after:h-[66px] after:right-0">to
+              class="font-Caveat text-6xl leading-0 pr-20 relative after:absolute after:bg-star after:w-[66px] after:h-[66px] after:right-0 md:text-4xl">to
               the next level</span></p>
         </div>
       </div>
@@ -118,10 +122,12 @@
 
     <section class="bg-pink rounded-[78px]">
       <div class="container">
-        <div class="py-[70px] px-12">
-          <div class="flex items-baseline gap-24 mb-14">
+        <div class="py-[70px] px-12 xl:py-9 xl:px-8 sm:px-2 sm:py-6">
+          <div class="flex items-baseline gap-24 mb-14 xl:flex-col xl:items-center xl:gap-4">
             <h2 class="font-normal text-xl text-accent leading-6 shrink-0">What are we doing?</h2>
-            <p class="font-normal text-6xl text-accent leading-[79px] ">First and foremost, we work as we should, but
+            <p class="font-normal text-6xl text-accent leading-[79px] xl:text-5xl md:text-4xl sm:text-2xl">
+              First and foremost, we
+              work as we should, but
               also as a
               product and design team on an outsourced
               basis. They come to us
@@ -129,68 +135,80 @@
               for websites, online stores, corporate sites, and even portals:)</p>
           </div>
 
-          <div class="grid grid-rows-2 grid-cols-2 gap-x-48 gap-y-12 justify-items-center">
-            <div class="w-[406px] border-b-[1px] border-b-border pb-5">
-              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10">development</h2>
-              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6">Frontend and backend, from simple
+          <div class="grid grid-rows-2 grid-cols-2 gap-x-48 gap-y-12 justify-items-center xl:gap-3 md:grid-cols-1">
+            <div class="w-[406px] border-b-[1px] border-b-border pb-5 xl:max-w-xs">
+              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10 md:text-center">development</h2>
+              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6 sm:text-center">
+                Frontend and backend, from
+                simple
                 pages to complex services. We will install the site on a
                 suitable engine - WordPress,
                 Bitrix, or all do-on frameworks.</p>
-              <img src="./images/development.svg" alt="development-img">
+              <img class="md:mx-auto" src="./images/development.svg" alt="development-img">
             </div>
 
-            <div class="w-[406px] border-b-[1px] border-b-border pb-5">
-              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10">design</h2>
-              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6">We'll make it without templates and
+            <div class="w-[406px] border-b-[1px] border-b-border pb-5 xl:max-w-xs">
+              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10 md:text-center">design</h2>
+              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6 sm:text-center">
+                We'll make it without templates and
                 taking into account your objectives. Like, for example,
                 laconic, so it supports UX,
                 or bright and with cool animations, but without a cringe.</p>
-              <img src="./images/design.svg" alt="design-img">
+              <img class="md:mx-auto" src="./images/design.svg" alt="design-img">
             </div>
 
-            <div class="w-[406px] border-b-[1px] border-b-border pb-5">
-              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10">marketing</h2>
-              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6">We will collect data on competitors,
+            <div class="w-[406px] border-b-[1px] border-b-border pb-5 xl:max-w-xs">
+              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10 md:text-center">marketing</h2>
+              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6 sm:text-center">
+                We will collect data on competitors,
                 targeted audience, and your company, understand in what direction to move, set up
                 working channels, and bring profit.</p>
-              <img src="./images/marketing.svg" alt="marketing-img">
+              <img class="md:mx-auto" src="./images/marketing.svg" alt="marketing-img">
             </div>
 
-            <div class="w-[406px] border-b-[1px] border-b-border pb-5">
-              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10">branding</h2>
-              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6">If you don't have an identity, we'll
+            <div class="w-[406px] border-b-[1px] border-b-border pb-5 xl:max-w-xs">
+              <h2 class="font-normal text-4xl mb-4 text-accent lowercase leading-10 md:text-center">branding</h2>
+              <p class="text-accent font-normal lowercase text-xl leading-7 mb-6 sm:text-center">
+                If you don't have an identity, we'll
                 dive into the product and find the best metaphor. If you
                 have one, we'll update it,
                 considering trends and your wishes.</p>
-              <img src="./images/branding.svg" alt="branding-img">
+              <img class="md:mx-auto" src="./images/branding.svg" alt="branding-img">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="pt-[150px]">
+    <section class="pt-[150px] sm:pt-16">
       <div class="container">
-        <div class="grid grid-cols-2 grid-rows-[1fr_666px] gap-5">
-          <a href="#"><img class="hover:scale-105 transition-all" src="./images/product-1.jpg" alt="product"></a>
-          <a href="#"><img class="hover:scale-105 transition-all" src="./images/product-2.jpg" alt="product"></a>
+        <div class="grid grid-cols-2 grid-rows-[1fr_666px] gap-5 md:grid-cols-1 md:grid-rows-[1fr_1fr_666px]">
+          <a class="h-fit" href="#"><img class="hover:scale-105 transition-all" src="./images/product-1.jpg"
+              alt="product"></a>
+          <a class="h-fit" href="#"><img class="hover:scale-105 transition-all" src="./images/product-2.jpg"
+              alt="product"></a>
 
-          <div class="bg-blue py-12 px-24 rounded-[20px] relative col-span-2">
+          <div class="bg-blue py-12 px-24 rounded-[20px] relative col-span-2 md:py-8 md:px-10 md:col-auto">
             <img class="absolute left-0 bottom-[-100px] animate-pulse" src="./images/decor-line-3.svg" alt="decor-line">
             <img class="absolute right-0 top-12 animate-pulse" src="./images/decor-line-4.svg" alt="decor-line">
-            <img class="absolute right-40 top-3/4 animate-spin" src="./images/spin.svg" alt="spin-decor">
-            <div
-              class="rounded-[20px] px-9 py-7 bg-blueAlice text-blue text-center font-normal text-[40px] max-w-2xl mx-auto mb-8">
+            <img class="absolute right-40 top-3/4 animate-spin xl:hidden" src="./images/spin.svg" alt="spin-decor">
+            <div class="rounded-[20px] px-9 py-7 bg-blueAlice text-blue text-center font-normal text-[40px] max-w-2xl mx-auto mb-8
+            md:py-4 md:px-2 md:text-4xl sm:text-xl">
               we provide outstaff support</div>
-            <div class="text-center w-3/4 mx-auto">
-              <p class="font normal text-blueAlice text-5xl leading-[74px] max-w-3xl mx-auto">We are the ones who
+            <div class="text-center w-3/4 mx-auto xl:w-full">
+              <p
+                class="font normal text-blueAlice text-5xl leading-[74px] max-w-3xl mx-auto xxl:text-4xl xl:text-3xl xl:leading-10 md:text-2xl">
+                We are the ones who
                 strengthen your in-house team</p>
-              <p class="font-Caveat text-blueAlice text-7xl mb-[15px]">and declares it openly!</p>
-              <p class="text-blueAlice text-5xl leading-[74px]">Out staff is a cool opportunity to exchange the skills
+              <p
+                class="font-Caveat text-blueAlice text-7xl mb-[15px] xxl:text-6xl xl:text-5xl md:text-4xl md:mb-0 sm:text-3xl">
+                and declares it openly!</p>
+              <p class="text-blueAlice text-5xl leading-[74px] md:text-4xl md:leading-[56px] sm:text-3xl">Out staff is a
+                cool opportunity to exchange the skills
                 of different specialists and maximize
               </p>
-              <p class="text-blueAlice text-5xl"><span
-                  class="pr-16 relative before:absolute before:bg-yellowdecor before:right-[-20px] before:w-[74px] before:h-[77px] before:top-[-10px]">fast</span>
+              <p class="text-blueAlice text-5xl xxl:text-4xl xl:text-3xl"><span
+                  class="pr-16 relative before:absolute before:bg-yellowdecor before:right-[-20px] before:w-[74px] before:h-[77px] before:top-[-10px] sm:before:top-[-220px]">fast</span>
                 and high-quality pumping</p>
             </div>
           </div>
@@ -199,10 +217,10 @@
 
     </section>
 
-    <section class="py-[150px]">
+    <section class="py-[150px] sm:py-12">
       <div class="container">
         <h2 class="mb-10 font-normal text-xl leading-6 text-gray">team</h2>
-        <div class="grid grid-rows-2 grid-cols-4 justify-center gap-3">
+        <div class="grid grid-rows-2 grid-cols-4 justify-center gap-3 md:grid-cols-2 md:grid-rows-4">
           <img class="hover:scale-110 cursor-pointer transition-all" src="./images/team-1.jpg" alt="team">
           <img class="hover:scale-110 cursor-pointer transition-all" src="./images/team-2.jpg" alt="team">
           <img class="hover:scale-110 cursor-pointer transition-all" src="./images/team-3.jpg" alt="team">
@@ -220,9 +238,10 @@
         <div class="relative">
           <img class="absolute left-0 top-8 animate-pulse" src="./images/decor-line-5.svg" alt="decor-line">
           <img class="absolute right-0 top-[-100px] animate-pulse" src="./images/decor-line-6.svg" alt="decor-line">
-          <img class="absolute bottom-[-120px] left-1/2 translate-x-[-50%] animate-pulse z-10" src="./images/decor-arrow.svg"
-            alt="decor-arrow">
-          <img class="absolute left-3/4 bottom-0 translate-x-[-50%] animate-pulse" src="./images/decor-moon.svg" alt="decor-moon">
+          <img class="absolute bottom-[-120px] left-1/2 translate-x-[-50%] animate-pulse z-10"
+            src="./images/decor-arrow.svg" alt="decor-arrow">
+          <img class="absolute left-3/4 bottom-0 translate-x-[-50%] animate-pulse" src="./images/decor-moon.svg"
+            alt="decor-moon">
 
           <h2 class="text-gray font-normal text-xl">a little more about us:)</h2>
           <div class="mx-auto max-w-[800px] text-center mb-14">
@@ -239,11 +258,13 @@
             <img class="self-end" src="./images/multitech-dec.png" alt="multitech-dec">
             <div class="pb-[100px]">
               <h3 class="text-white font-normal text-4xl mb-5">always remain flexible</h3>
-              <p class="text-white text-2xl mb-12">For example, we choose a stack that the client is comfortable with. And we also offer to work
+              <p class="text-white text-2xl mb-12">For example, we choose a stack that the client is comfortable with.
+                And we also offer to work
                 in stages or by TM, so
                 that you can change the brief and control the timing.</p>
               <h3 class="text-white font-normal text-4xl mb-5">we know how to super-manage</h3>
-              <p class="text-white text-2xl">We answer questions quickly and give you access to the project. Plus we're always ready to
+              <p class="text-white text-2xl">We answer questions quickly and give you access to the project. Plus we're
+                always ready to
                 call to discuss details or
                 explain our decisions. If you don't have time for a call, we'll write down Loom.</p>
             </div>
@@ -253,7 +274,8 @@
         </div>
       </div>
     </section>
-    <section class="py-[150px]">
+
+      <!-- <section class="py-[150px]">
       <div class="container">
         <div class="max-w-4xl mx-auto relative mb-24">
           <h2 class="text-[85px] font-normal leading-[85px] text-accent">What are you paying for?</h2>
@@ -297,9 +319,9 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
   </main>
-  <!-- <footer class="bg-black">
+  <footer class="bg-black">
     <div class="container">
       <div class="pt-12">
         <h2 class="font-normal text-gray text-xl leading-6 mb-8">office and contacts</h2>
@@ -331,7 +353,7 @@
         </ul>
       </div>
     </div>
-  </footer>  -->
+  </footer> -->
   <script src="./js/main.js"></script>
 </body>
 

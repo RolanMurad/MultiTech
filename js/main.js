@@ -13,11 +13,10 @@ btn?.addEventListener('click', function () {
 })
 
 // !Burger
-const burger = document?.querySelector('.burger');
+const burger = document?.querySelector('[data-burger]');
 const menu = document?.querySelectorAll('[data-menu]');
 burger?.addEventListener('click', function () {
   menu?.forEach(function (el) {
     el?.classList.toggle('md:translate-y-[-300%]');
-  })
-})
-
+  });
+});
