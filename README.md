@@ -3,8 +3,10 @@
 
 **What's inside?** :mag_right:
 * **TailwindCSS**
-* **Responsive** and **adaptive** up to **320px**. :white_check_mark:
+* **Full responsiveness** down to **320px (iPhone 4 support)**. ✅. :white_check_mark:
 * **Pixel Perfect**. :white_check_mark:
+* **Smooth animation.**
+* Adaptive **burger menu** for tablets and cell phones.
 * **Cross-Browser Compatibility** (Firefox, Chrome, Opera, Safari, Yandex Browser, Microsoft Edge...). :white_check_mark:
 ---- 
 **The technology stack that was used :**
