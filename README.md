@@ -2,7 +2,7 @@
 **Responsive** website for a company that creates digital products. **(Tailwind CSS)**.
 
 **What's inside?** :mag_right:
-* **TailwindCSS** .✅
+* **TailwindCSS**. ✅
 * **Full responsiveness** down to **320px (iPhone 4 support)**. ✅
 * **Pixel Perfect**. ✅
 * **Smooth animation.** ✅
