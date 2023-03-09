@@ -1,4 +1,4 @@
-# **MultiTech** :ambulance:
+# **MultiTech** 👨‍💻
 **Responsive** website for a company that creates digital products. **(Tailwind CSS)**.
 
 **What's inside?** :mag_right:
