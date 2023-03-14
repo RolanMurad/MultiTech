@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* !Fonts */
+@font-face {
+  font-family: "Object Sans Regular";
+  src: url(./fonts/ObjectSans-Regular.ttf), format("ttf"),
+    local("ObjectSans-Regular"),
+    url("./fonts/ObjectSans-Regular.woff") format("woff"),
+    url("./fonts/ObjectSans-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Caveat Regular";
+  src: url(./fonts/Caveat-Regular.ttf), format("ttf"),
+    local("Caveat-Regular"),
+    url("./fonts/ObjectSans-Regular.woff") format("woff"),
+    url("./fonts/ObjectSans-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Manrope SemiBold";
+  src: url(./fonts/Manrope-Semibold.ttf), format("ttf"),
+    local("Manrope-Semibold"),
+    url("./fonts/Manrope-Semibold.woff") format("woff"),
+    url("./fonts/Manrope-Semibold.woff2") format("woff2"),
+}
+
+
+@font-face {
+  font-family: "Manrope Regular";
+  src: url(./fonts/Manrope-Regular.ttf), format("ttf"),
+    local("Manrope-Regular"),
+    url("./fonts/Manrope-Regular.woff") format("woff"),
+    url("./fonts/Manrope-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Lato SemiBold";
+  src: url(./fonts/Lato-Semibold.ttf), format("ttf"),
+    local("Lato-Semibold"),
+    url("./fonts/Lato-Semibold.woff") format("woff"),
+    url("./fonts/Lato-Semibold.woff2") format("woff2"),
+}
+
+/* !Font-Family for body */
+@layer base {
+  body {
+    font-family: "Object Sans Regular, sans-serif";
+  }
+}
+
+/* !Max-width Container */
+@layer components {
+  .container {
+    @apply max-w-[1540px]
+  }
+}

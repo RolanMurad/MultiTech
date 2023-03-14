@@ -1,0 +1,26 @@
+{
+  "name": "multitech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./dist/css/main.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RolanMurad/MultiTech.git"
+  },
+  "author": "Rolan Murad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RolanMurad/MultiTech/issues"
+  },
+  "homepage": "https://github.com/RolanMurad/MultiTech#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "tailwindcss-nth-child": "^0.0.6"
+  }
+}
